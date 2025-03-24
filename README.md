@@ -1,5 +1,5 @@
 # Sub Hunt
- A setup project for the sub hunt game.
+Link to play the game: https://presser.sites.gettysburg.edu/games/SubHunt/
 
 ## What's New?
 ### 2/26/2025
