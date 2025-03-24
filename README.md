@@ -1,59 +1,55 @@
-# Sub Hunt
-Link to play the game: https://presser.sites.gettysburg.edu/games/SubHunt/
+# SubHunt  
+**Link to Play the Game:** [SubHunt Online](https://presser.sites.gettysburg.edu/games/SubHunt/)  
 
-## What's New?
-### 2/26/2025
-- Added sound settings and instructions UI
-- Added game over and next level functionality
-- Added last known location (e key)
+SubHunt is an underwater tactical game built with the Godot engine, where players take control of a submarine on a mission to hunt down hidden targets using sonar and torpedoes. The game combines stealth, precision, and action in an immersive underwater environment.  
 
-### 2/25/2025
-- Targets make a noise audible when you are nearby.
-- Target can fire torpedo
-- Target moves using physics forces 
-- Player takes damamge from torpedo hit
-- Reduced to one target.
+---
 
-### 2/25/2025
-- Incorporated Anaya's code organization (subfolders in res:// ) and torpedo.
-- Incorporated Dipto's short sonar sound.
-- Incorporated Yash's code for movement.
-- Ball is now Target.
-- Field is bigger and more square.
-- Made individual scenes out of Player, Target, and Field. Main has instances of them.
-- Added a script to Field which indicates when the player has gone more than 90m from the center.
-- Target responds to torpedo.
-- Added a bunch of sounds.
-- Handles multiple targets (sonar pings from each one)
-- Added this list to README.md
+## 🎮 Controls  
+- **Arrow Keys:** Move and turn the submarine.  
+- **C** or **`**: Toggle camera (on/off).  
+- **S:** Emit a sonar ping to detect nearby targets.  
+- **SPACE:** Fire a torpedo.  
+- **R:** Randomly reposition the target (Note: may need to press twice due to a known bug).  
+- **E:** Toggle "last known location" mechanic.  
 
-## Controls
-- Arrow keys: move and turn
-- C or `: Toggle camera (on/off)
-- S: Sonar ping
-- SPACE: fire torpedo
-- R: randomly place ball (BUG: you may have to press it twice)
+---
 
-## TODO
-### Game Components
-- Make a target that is destroyed when the player touches it.
-- Make a torpedo (fire by either the player of enemy)
-- Make a target which is destroyed by a torpedo
-- Make a mechanism for firing the torpedo
+## 🛠️ Game Features  
+- **Physics-Based Target Movement:** Targets move using applied forces, making them behave more realistically.  
+- **Torpedo Combat:** Both the player and enemy targets can fire torpedoes, adding an element of risk and combat strategy.  
+- **Sound-Based Detection:** Use sonar pings to detect hidden targets, and listen for audible cues when targets are nearby.  
+- **Level Progression and Game States:** Start, end, and next-level functionalities guide the player through various challenges.  
+- **Modular Structure:** Player, Target, and Field are designed as individual scenes for easier modification and expansion.  
+- **Immersive Audio:** Includes sonar sounds, torpedo effects, and other audio cues to heighten the tension.  
 
-### Game Play
-- Create a start, end, and next level mechanism
-- Create levels (search, survive, destroy)
+---
 
-### Audio
-- Sonar: ping and response
-- Text to speech game and level instructions
-- Find or make good sounds (see below). These should be licensed for free use, preferable allowing us to alter them. Keep track of where they came from for the credits.
+## 🎯 Future Goals  
+The project aims to evolve with additional features such as improved audio design, refined game mechanics, and the addition of new levels and challenges. Stay tuned for updates as SubHunt continues to grow!  
 
-### Sounds 
-- Ping noise
-- Response noise
-- Torpedo noise
-- Player destroyed noise
-- Target destroyed noise
-- Collide with something noise
+---
+
+## 🆕 What's New?  
+### 2/26/2025  
+- Added sound settings and instructions UI for enhanced user experience.  
+- Implemented game over and next-level functionality.  
+- Introduced "last known location" mechanic (toggle using the **E** key).  
+
+### 2/25/2025  
+- Targets emit audible cues when you are nearby, adding an element of sound-based detection.  
+- Targets can fire torpedoes at the player.  
+- Physics-based movement added for dynamic target behavior.  
+- Players now take damage when hit by enemy torpedoes.  
+- Reduced the gameplay field to one active target to focus on core mechanics.  
+
+### 2/24/2025  
+- Improved project organization by adding subfolders in `res://` for better code management.  
+- Integrated key contributions:  
+  - **Torpedo mechanics:** from Anaya.  
+  - **Short sonar sound effect:** from Dipto.  
+  - **Movement controls:** from Yash.  
+- Expanded the game field to a larger, more square area.  
+- Separated Player, Target, and Field elements into individual scenes for modularity.  
+- Added out-of-bounds detection for the player when they stray 90m beyond the center.  
+- Enhanced gameplay with multiple sonar-pinging targets, target responses to torpedo hits, and diverse sound effects.  
