@@ -1,9 +1,18 @@
 # SubHunt  
-**Link to Play the Game:** [SubHunt Online](https://presser.sites.gettysburg.edu/games/SubHunt/)  
+**Link to Play the Game:** [SubHunt Online](https://presser.sites.gettysburg.edu/games/SubHunt/)
+**Itch.io Page:** [SubHunt on Itch.io](https://cpresser.itch.io/subhunt)  
 
 SubHunt is an underwater tactical game built with the Godot engine, where players take control of a submarine on a mission to hunt down hidden targets using sonar and torpedoes. The game combines stealth, precision, and action in an immersive underwater environment.  
 
 ---
+
+## 🎯 Game Background  
+SubHunt was created as part of the **[Games for Blind Gamers 4 Game Jam](https://itch.io/jam/games-for-blind-gamers-4)**, hosted on itch.io. The game jam challenges developers to create accessible games for blind and visually impaired players, encouraging innovative use of sound-based mechanics, haptics, and audio cues.  
+
+In response to this challenge, SubHunt was designed to emphasize sound-based detection and gameplay, allowing players to rely primarily on sonar pings and audible cues to locate and track hidden targets. The game aims to be inclusive while also offering a fun and challenging experience for all players.  
+
+---
+
 
 ## 🎮 Controls  
 - **Arrow Keys:** Move and turn the submarine.  
