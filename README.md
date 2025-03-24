@@ -1,5 +1,6 @@
 # SubHunt  
 **Link to Play the Game:** [SubHunt Online](https://presser.sites.gettysburg.edu/games/SubHunt/)
+
 **Itch.io Page:** [SubHunt on Itch.io](https://cpresser.itch.io/subhunt)  
 
 SubHunt is an underwater tactical game built with the Godot engine, where players take control of a submarine on a mission to hunt down hidden targets using sonar and torpedoes. The game combines stealth, precision, and action in an immersive underwater environment.  
